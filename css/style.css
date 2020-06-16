@@ -82,7 +82,7 @@ main{
 }
 
 .intro-content{
-  height: 50vh;
+  height: 55vh;
   display: flex;
   flex-wrap: wrap;
 }
