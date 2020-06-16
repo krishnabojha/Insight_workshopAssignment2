@@ -188,14 +188,18 @@ input[type='text'], input[type=email], textarea{
 }
 
 @media screen and (max-width: 1440px){
+
   .services{
     clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
   }
 }
 
 @media screen and (max-width: 1024px){
-
+.intro-content{
+  height: 50vh;
+}
 .services{
+    height: 50vh;
     clip-path: polygon(0 0, 15% 0, 50% 5%, 85% 0, 100% 0, 100% 100%, 0 100%, 0 0);
   }
   .service-content{
@@ -371,6 +375,9 @@ form div{
   .header-content h2{
     font-size: 11px;
   }
+ .intro-content h1{
+  font-size: 30px;
+ }
   .services{
     height: 70rem;
   }
